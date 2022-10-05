@@ -1,0 +1,22 @@
+composer create-project laravel/laravel sistema crear el proyecto
+
+
+
+php artisan migrate para actualizar en la base de datos los usuarios que se vayan creando
+
+php artisan make:model Empleado -mcr para crear el mvc
+
+carpetas
+
+app-http voy a encontrar los controladores
+resources views me sirve para poner las vistas 
+routes-web donde voy a tener todas las rutas para la solicitud del usuario
+
+php artisan route:list para saber las rutas activas
+php artisan storage:link para que se muestren las fotos
+composer require laravel/ui
+
+--me hace login y register
+php artisan ui bootstrap --auth
+npm install
+npm run dev
